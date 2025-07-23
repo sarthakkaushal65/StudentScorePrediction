@@ -35,8 +35,8 @@ def set_background(image_path):
 set_background("study_background.jpg")
 
 # ✅ Load model and encoders
-model = joblib.load("model.pkl")
-encoders = joblib.load("label_encoders.pkl")
+model = joblib.load("model-3.pkl")
+encoders = joblib.load("label_encoders-2.pkl")
 
 # ✅ Input form title
 st.title("🎯 Predict Student Exam Score")
